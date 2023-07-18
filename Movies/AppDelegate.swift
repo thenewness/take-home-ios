@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Movies
 //
-//  Created by Antonio Alves on 7/18/23.
+//  Created by QP Ventures, Inc. on 7/18/23.
 //
 
 import UIKit
