@@ -7,10 +7,8 @@ The overall functionality of the application is to display a gallery of popular 
 ## Movies Client
 
  - Implement the empty methods in `MoviesClient.swift`
- - Use the following endpoint for `popularMovies()`: https://developers.themoviedb.org/3/movies/get-popular-movies
- - Use the following endpoint for `movieDetails(_)`: https://developers.themoviedb.org/3/movies/get-movie-details
-
-You can use the following API Key: bf718d4dd8b23985d9c3edbcfd440a27
+ - Use the following endpoint for `popularMovies()`: https://api.themoviedb.org/3/movie/popular
+ - Use the following endpoint for `movieDetails(_)`: https://api.themoviedb.org/3/movie/{movie_id}
 
 ## AppDelegate
 
@@ -37,6 +35,6 @@ You can use the following API Key: bf718d4dd8b23985d9c3edbcfd440a27
   
   - Organize files in separate folders
   - Implementing modern UICollectionView API's such as:
-        - UICollectionViewDiffableDataSource
-        - UICollectionViewCompositionalLayout
-        - UIContentConfiguration
+    - UICollectionViewDiffableDataSource
+    - UICollectionViewCompositionalLayout
+    - UIContentConfiguration
