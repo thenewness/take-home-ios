@@ -9,10 +9,12 @@ The overall functionality of the application is to display a gallery of popular 
  - Implement the empty methods in `MoviesClient.swift`
  - Use the following endpoint for `popularMovies()`: https://api.themoviedb.org/3/movie/popular
  - Use the following endpoint for `movieDetails(_)`: https://api.themoviedb.org/3/movie/{movie_id}
+ - Feel free to architect the networking layer as you'd like to make components more reusable
+ - Include unit tests for networking
 
 ## AppDelegate
 
- - Use the `AppDelegate` to initialize the interface 
+ - Use the `SceneDelegate` to initialize the interface 
  
 ## Popular Movies View Controller
 
