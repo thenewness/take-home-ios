@@ -9,6 +9,8 @@ The overall functionality of the application is to display a gallery of popular 
  - Implement the empty methods in `MoviesClient.swift`
  - Use the following endpoint for `popularMovies()`: https://developers.themoviedb.org/3/movies/get-popular-movies
  - Use the following endpoint for `movieDetails(_)`: https://developers.themoviedb.org/3/movies/get-movie-details
+ - Feel free to architect the networking layer as you'd like to make components more reusable
+ - Include unit tests for networking
 
 You can use the following API Key: bf718d4dd8b23985d9c3edbcfd440a27
 
